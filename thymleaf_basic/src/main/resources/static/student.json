@@ -1,0 +1,10 @@
+{
+  "name": "Nguyen Van teo",
+  "gender": true,
+  "marks": 7.5,
+  "contact": {
+    "email": "teonv@gmail.com",
+    "phone": "0988776543"
+  },
+  "subjects": ["WEB205","COM108"]
+}

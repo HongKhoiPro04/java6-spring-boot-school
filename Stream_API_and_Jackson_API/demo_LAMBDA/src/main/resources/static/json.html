@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var sv = {
+            "name": "Nguyen Van Teo",
+            "gender": true,
+            "marks": 7.5,
+            "contact":{
+                "email": "teonv@gmail.com",
+                "phone": "0913745789"
+            },
+            "subjects": ["WEB205","COM108"]
+        }
+        // xuat
+        console.log(sv);
+
+        // truy xuat thuoc tinh
+        sv.name = sv['name'].toUpperCase();
+        console.log(sv.name,sv.contact.email,sv.subjects[0]);
+
+        // suyet doi tuong
+        for (var key in sv){
+            console.log(key,sv[key])
+        }
+
+        // chuyen doi tuong json sang chuoi
+        var text = JSON.stringify(sv);
+        console.log(text);
+
+        // chuyen doi chuoi sang json
+        var obj = JSON.parse(text);
+        console.log(obj,obj.name)
+    </script>
+</body>
+</html>

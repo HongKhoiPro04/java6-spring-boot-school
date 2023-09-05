@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{/layout/layout.html :: dynamic(~{::body})}">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<body>
+<h3>Validation</h3>
+<div th:text="${message}"></div>
+<form action="/validation/save" method="post" th:object="${sv}">
+    <input th:field="*{email}" placeholder="Email Address?"> <br>
+        <i th:errors="*{email}"></i>
+    <input th:field="*{fullName}" placeholder="Full Name?"> <br>
+    <i th:errors="*{fullName}"></i>
+    <input th:field="*{marks}" placeholder="Average Marks?"> <br>
+    <i th:errors="*{marks}"></i>
+    <input th:field="*{gender}" th:value="true" type="radio"> Male <br>
+    <input th:field="*{gender}" th:value="false" type="radio"> Female <br>
+    <i th:errors="*{gender}"></i>
+    <select th:field="*{country}">
+        <option value="">Nationality?</option>
+        <option value="VN">Viet Nam</option>
+        <option value="US">United States</option>
+    </select>
+    <i th:errors="*{country}"></i>
+    <hr>
+    <button>Validate</button>
+</form>
+</body>
+</body>
+</html>

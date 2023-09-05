@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Nguyen Van teo",
+    "gender": true,
+    "marks" : 7.5,
+    "contact": {
+      "email": "teonv@gmail.com",
+      "phone": "0988765676"
+    },
+    "subjects": ["WEB205","COM108"]
+  },
+  {
+    "name": "tran thi thu huong",
+    "gender": false,
+    "marks" : 5.5,
+    "contact": {
+      "email": "huongtt@gmail.com",
+      "phone": "0988765676"
+    },
+    "subjects": ["WEB205","COM108"]
+  },
+  {
+    "name": "Pham Duc Cuong",
+    "gender": true,
+    "marks" : 9.5,
+    "contact": {
+      "email": "cuongdp@gmail.com",
+      "phone": "0988765676",
+      "address": "778/B1 Nguyen Kiem, F.4, Q.Phu Nhuan"
+    },
+    "subjects": ["WEB205"]
+  },
+  {
+    "name": "Le Thi My Hong",
+    "gender": false,
+    "marks" : 6.5,
+    "contact": {
+      "email": "hongltm@gmail.com",
+      "phone": "0988765676"
+    },
+    "subjects": ["WEB205","COM108"]
+  },
+  {
+    "name": "Doan Thi Kim Ty",
+    "gender": false,
+    "marks" : 8.5,
+    "contact": {
+      "email": "teonv@gmail.com",
+      "phone": "0988765676"
+    },
+    "subjects": ["WEB205","COM108"]
+  }
+]

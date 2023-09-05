@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <nav th:replace="~{/home/_menu :: nav}"></nav>
+<hr>
+<i th:text="${message}" style="color: red"></i>
+<form action="/auth/login" method="post">
+    <input name="username" placeholder="Username?">
+    <input name="password" placeholder="Password?">
+    <input type="checkbox" name="remember"> Remember Me? <br>
+    <button>Login</button>
+</form>
+</body>
+</html>

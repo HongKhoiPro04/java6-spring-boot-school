@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Nguyen Van Teo",
+    "gender": true,
+    "marks": 9.5,
+    "email": "teonv@fpt.edu.vn"
+  },
+  {
+    "name": "Pham Thi No",
+    "gender": false,
+    "marks": 8.0,
+    "email": "nopt@fpt.edu.vn"
+  },
+  {
+    "name": "doan chi pheo",
+    "gender": true,
+    "marks": 4.5,
+    "email": "pheodc@fpt.edu.vn"
+  },
+  {
+    "name": "Tran Thi My Linh",
+    "gender": false,
+    "marks": 6.5,
+    "email": "linhttm@fpt.edu.vn"
+  }
+]
